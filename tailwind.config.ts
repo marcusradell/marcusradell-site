@@ -10,6 +10,6 @@ const config: Config = {
   daisyui: {
     themes: ["synthwave"],
   },
-  plugins: [daisyui],
+  plugins: [require("@tailwindcss/typography"), daisyui],
 };
 export default config;
