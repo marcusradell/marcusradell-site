@@ -24,19 +24,6 @@ export default function Home() {
           </a>
           .
         </p>
-        <p>
-          I&apos;ve also done a bit of live coding as I&apos;m trying to
-          collaborate more with people interested in writing quality code:{" "}
-          <a href="https://www.youtube.com/live/KQFAHVMMpjs">
-            https://www.youtube.com/live/KQFAHVMMpjs
-          </a>
-          . It&apos;s a topic I hope to contribute more to in the future. You
-          can find the code in the code typing repo above, but in the branch{" "}
-          <code>final_hexagon</code>. OK, time to stop stalking my GitHub
-          profile! Developers, get back to coding! Recruiters, if you contact
-          me, be prepared to hear about our great SALT developers (they&apos;re
-          better than yours, but I have to charge)!
-        </p>
       </article>
     </Main>
   );
