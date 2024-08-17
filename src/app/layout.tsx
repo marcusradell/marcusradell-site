@@ -16,11 +16,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}><nav>
-        <div className="navbar bg-base-100">
-          <a className="btn btn-ghost text-xl">rådell.marcus</a>
-        </div>
-      </nav>{children}</body>
+      <body className={inter.className}>
+        <nav>
+          <div className="navbar">
+            <div className="navbar-start">
+              <a className="btn btn-ghost text-xl">rådell.marcus</a>
+            </div>
+            <div className="navbar-end">
+              <ul className="menu menu-horizontal">
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/projects">Projects</a>
+                </li>
+                <li>
+                  <a href="/publications">Publications</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }

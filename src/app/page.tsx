@@ -1,6 +1,6 @@
 import React from "react";
-import Image from 'next/image'
-import profilePicture from './profile.jpg'
+import Image from "next/image";
+import profilePicture from "./profile.jpg";
 
 export default function Home() {
   return (
@@ -9,7 +9,12 @@ export default function Home() {
         <h1>
           Marcus Rådell <aside>Software Developer</aside>
         </h1>
-        <Image src={profilePicture} alt="Profile picture of the author" width="500" height="250" />
+        <Image
+          src={profilePicture}
+          alt="Profile picture of the author"
+          width="500"
+          height="250"
+        />
         <p>
           👋 Hi there, you have reached Marcus Rådell, Head of Teaching at{" "}
           <a href="https://salt.dev">https://salt.dev</a>. Please leave a
