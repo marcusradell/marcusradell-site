@@ -15,8 +15,7 @@ export default function Home() {
       />
       <div className="w-96 pt-2">
         <Lead>
-          I&apos;m a software developer with a wide set of skills related to
-          develop ideas to software products in a professional team environment.
+          I help professional teams turn ideas into software products.
         </Lead>
       </div>
     </main>
