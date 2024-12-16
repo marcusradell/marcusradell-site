@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export function AboutMe() {
   return (
-    <div className="flex">
-      <div>
+    <div className="flex flex-col md:flex-row">
+      <div className="pb-4 md:pb-0">
         <Image
           src="/marcus_radell.jpg"
           alt="Marcus Rådell"
