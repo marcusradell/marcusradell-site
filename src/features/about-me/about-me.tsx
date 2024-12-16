@@ -18,7 +18,7 @@ export function AboutMe() {
           </Lead>
         </div>
       </div>
-      <div className="pl-4">
+      <div className="md:pl-8">
         <P>
           As a manager, I value psychological safety and approach each
           individual with curiosity. I do not squeeze value out of my teams, but
