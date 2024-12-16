@@ -1,3 +1,4 @@
 export * from "./h1";
 export * from "./h2";
 export * from "./lead";
+export * from "./p";
