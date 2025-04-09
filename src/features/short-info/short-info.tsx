@@ -1,11 +1,13 @@
 export function ShortInfo() {
   return (
     <div>
-      <ul>
+      <ul className="list-none">
         <li>
-          <span>Occupation: </span>
-          <span>Tech leadership & Software development</span>
-          <span>Location: </span>
+          <span className="font-bold">Occupation </span>
+          <span>Leadership & Software development</span>
+        </li>
+        <li>
+          <span className="font-bold">Location </span>
           <span>Stockholm, Sweden</span>
         </li>
       </ul>

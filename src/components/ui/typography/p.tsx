@@ -4,8 +4,6 @@ type Props = { children: ReactNode };
 
 export function P({ children }: Props) {
   return (
-    <p className="leading-7 text-muted-foreground not-first:mt-6">
-      {children}
-    </p>
+    <p className="text-muted-foreground leading-7 not-first:mt-6">{children}</p>
   );
 }
