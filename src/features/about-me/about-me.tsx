@@ -1,4 +1,4 @@
-import { Lead, P } from "@/components";
+import { Lead, P } from "@/components/ui";
 import Image from "next/image";
 
 export function AboutMe() {
