@@ -16,7 +16,7 @@ export default function Home() {
             alt="Marcus Rådell"
             width={400}
             height={225}
-            className="rounded-lg"
+            className="rounded-lg border-2 border-black"
           />
           <ShortInfo />
         </div>
